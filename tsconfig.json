@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node"
+  },
+  "include": [
+    "resources/ts/Lib/global.d.ts",
+    "resources/ts/Lib/vue.shims.d.ts",
+    "resources/vue/**/*",
+    "resources/ts/**/*"
+  ]
+}

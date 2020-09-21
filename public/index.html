@@ -1,0 +1,55 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="author" content="">
+	<meta name="description" content="">
+
+	<title>LOADING...</title>
+	
+	<link href="assets/css/app.css" type="text/css" rel="stylesheet">
+
+	<!-- External Library Assets -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+			
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/katex@0.6.0/dist/katex.min.css">
+
+	<style>
+	.nounderline {
+		text-decoration: none !important
+	}
+	</style>
+</head>
+
+<body>
+	<div id="app">
+		<document-navbar></document-navbar>
+		<keep-alive>
+			<router-view class="view"></router-view>
+		</keep-alive>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+	<script src="https://www.gstatic.com/charts/loader.js"></script>
+
+	<!-- Our program -->
+	<script src="assets/js/app.js"></script>
+
+	<!-- Jquery libraries -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+	<script>
+		if (window.location.protocol !== 'http:') {
+			window.location = 'http://' + window.location.hostname + window.location.pathname + window.location.hash;
+		}
+	</script>
+</body>
+</html>

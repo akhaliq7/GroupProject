@@ -1,0 +1,51 @@
+{
+  "name": "intproj3",
+  "version": "0.0.1",
+  "description": "Integrated Project 3 - BigTeamSeventeen - Team 17",
+  "author": "",
+  "homepage": "https://bitbucket.org/bigteamseventeen/project#readme",
+  "license": "ISC",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-p": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "dependencies": {
+    "laravel-mix": "^4.0.14",
+    "bootstrap": "^4.3.1",
+    "cross-env": "^5.2.0",
+    "gmaps-marker-clusterer": "^1.2.2",
+    "jquery": "^3.4.0",
+    "lodash": "latest",
+    "node-sass": "^4.11.0",
+    "npm-watch": "^0.6.0",
+    "pug": "^2.0.3",
+    "resolve-url-loader": "^2.3.1",
+    "sass": "^1.17.0",
+    "sass-loader": "^7.1.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3",
+    "vue": "^2.6.6",
+    "vue-class-component": "^6.3.2",
+    "vue-markdown": "^2.2.4",
+    "vue-property-decorator": "^6.1.0",
+    "vue-router": "^3.0.2",
+    "vue-template-compiler": "^2.6.6",
+    "vue-timeago": "^5.0.0",
+    "vue2-google-maps": "^0.10.6",
+    "webpack": "^4.30.0"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^4.2.2",
+    "@types/d3": "^5.7.2",
+    "@types/geojson": "^7946.0.6",
+    "@types/google.visualization": "0.0.46",
+    "@types/googlemaps": "^3.30.16",
+    "@types/lodash": "^4.14.121",
+    "@types/morris.js": "0.5.6",
+    "webpack-cli": "^3.3.1"
+  }
+}
